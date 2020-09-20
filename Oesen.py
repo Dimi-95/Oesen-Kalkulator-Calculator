@@ -1,6 +1,4 @@
-import math #add thing module to be able to use PI
-
-pi = math.pi
+from math import pi 
 
 while True: #repeats the program anew if the user doesn't input the right value
     einZwei = str.upper(input("Wenn Zwei Ösen gemacht werden sollen, gebe 'zwei' ein, wenn nicht dann gebe'eine' ein "))
